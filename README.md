@@ -1,7 +1,10 @@
 # GliaCloud Engineer Quiz
 
+The largest prime factors. <br>
+  The largest prime factor of 600851475143 is 6857. <br>
+<br>
 Multiples of 3 and 5. By David <br>
-  233168 <br>
+  The sum of the multiples of 3 or 5 below 1000 is 233168. <br>
   <br>
 Combination <br>
   C(40,10) = 847660528 <br>
