@@ -6,4 +6,4 @@ def combination(n, r):
 	elif r == 1:
 		return n
 
-print( combination(40,10) )
+print( combination(990,33) )
