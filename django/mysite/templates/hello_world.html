@@ -1,0 +1,62 @@
+<!-- hello_world.html -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>I come from template!!</title>
+		<style>
+			html{
+				height: 100%;
+				width: 100%;
+			}
+			body {
+				height: 100%;
+				width: 100%;
+				background-color: black;
+			}
+			div {
+				position: absolute;
+				top: 28%;
+				height: 20%;
+				width: 100%;
+				line-height: 20%;
+				text-align:	center;
+			}
+			h1,p {
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div onclick="changetext();">
+			<h1 id="change"></h1>
+		</div>
+		<script type="text/javascript">
+			var index = 0;	
+			var post_list = [];
+			{% for post in posts %}
+			post_list[index] = "{{post}}";
+				index ++;
+			{% endfor %}
+			var l = post_list.length;
+			index = 0;
+			document.getElementById("change").innerHTML= post_list[index];
+			function decideNext(num, l){
+				var next;	
+				if(num < (l-1)){
+					next = num + 1;
+				}
+				else if (num == (l-1)){
+					next = 0;
+				}
+				return next;
+			}
+			function changetext()
+			{
+				var next = decideNext(index, l); 
+				document.getElementById("change").innerHTML=post_list[ next ];
+				index = next;
+			}
+		</script>
+	</body>
+</html>

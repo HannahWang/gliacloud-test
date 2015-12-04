@@ -1,0 +1,10 @@
+#!/Users/savvssynah/Desktop/gliacloud-test/django/django_venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'ipython==4.0.1','console_scripts','iptest3'
+__requires__ = 'ipython==4.0.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('ipython==4.0.1', 'console_scripts', 'iptest3')()
+    )
