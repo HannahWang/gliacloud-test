@@ -1,8 +1,8 @@
 # GliaCloud Engineer Quiz
 
 <h3>Web Development</h3> 
-  url: https://immense-reaches-2634.herokuapp.com/hello/   (better in Safari, Firefox, and so on)<br> 
-  backend url: https://immense-reaches-2634.herokuapp.com/admin/ <br>
+  url: https://immense-reaches-2634.herokuapp.com/hello/   (better in **Safari**, **Firefox**, and so on)<br> 
+  backend url: https://immense-reaches-2634.herokuapp.com/admin/learning <br>
   - username: guest
   - password: a1234567<br>
 
@@ -17,5 +17,5 @@
   C(990,33) = 48203100894442103934748925233710467221987306962280314689084340<br>
   
 <h3>Integration</h3> 
-  I add 1 line of code to finish the integration by using Midpoint Rule. <br>
+  I add 1 line of code to finish the integration by using **Midpoint Rule**. <br>
   The approximation from 0~10 is 353.52525. <br>
