@@ -5,15 +5,12 @@
   backend url: https://immense-reaches-2634.herokuapp.com/admin/ <br>
   - username: guest
   - password: a1234567<br>
-<br>
 
 <h3>The largest prime factors.</h3> 
   The largest prime factor of 600851475143 is 6857. <br>
-<br>
 
 <h3>Multiples of 3 and 5. By David</h3> 
   The sum of the multiples of 3 or 5 below 1000 is 233168. <br>
-  <br>
 
 <h3>Combination</h3> 
   C(40,10) = 847660528 <br>
